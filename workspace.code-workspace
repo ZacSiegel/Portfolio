@@ -1,0 +1,19 @@
+{
+    "folders": [
+        {
+            "path": ".."
+        },
+        {
+            "path": "..\\..\\SCHOOL WORK\\IT\\IFT 383 Linux terminal"
+        },
+        {
+            "path": "..\\..\\SCHOOL WORK\\IT\\IFT 301 WEB DEV"
+        },
+        {
+            "path": "..\\..\\SCHOOL WORK\\IT\\IFT 220 ACTIVE DIRECTORY"
+        }
+    ],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "IFT 301 WEB DEV"
+    }
+}

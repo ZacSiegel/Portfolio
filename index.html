@@ -1,0 +1,346 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<html>
+
+<head>
+	<title>Zac Siegel - Front-end developer</title>
+	<meta name="description" content="Zac Siegel portfolio website">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!-- Google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600&display=swap"
+		rel="stylesheet">
+	<!-- Bootstrap -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+	<!-- Font-Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+	<!-- CSS -->
+	<link rel="stylesheet" href="style.css" />
+
+	<!-- Scroll Reveal -->
+	<script src="https://unpkg.com/scrollreveal"></script>
+
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Nav -->
+
+		<div id="navbar-container">
+			<nav id="mainNavbar" class="navbar navbar-expand-md navbar-light ">
+				<div class="container-fluid " id="nav-container">
+					<a class="nav-link" id="home-link" href="#header">Home</a>
+					<button id="nav-toggle" class="navbar-toggler" type="button" data-bs-toggle="collapse"
+						data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+						aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon" id="navbar-toggle-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="navbar-nav">
+							<!-- <a class="nav-link" href="#header">Home</a> -->
+							<a class="nav-link" href="#first">Projects</a>
+							<a class="nav-link" href="#about">About</a>
+							<a class="nav-link" href="#cta">Contact</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</div>
+
+
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<canvas></canvas>
+			<div id="title">
+				<h1 id="name-title">Zac Siegel</h1>
+				<p id="job">Front-end Developer</p>
+			</div>
+
+			<div class="black-hole-container">
+				<div class="bh"></div>
+			</div>
+		</header>
+
+
+
+		<!-- Main -->
+		<div id="main">
+
+
+
+			<!-- Projects -->
+			<section id="first" class="main special">
+				<header class="major">
+					<h2 class="projects-header">Projects</h2>
+				</header>
+
+				<!-- Project Row 1 -->
+				<div class="row justify-content-center">
+
+					<div class="card col-md-4" id="card1">
+						<img src="./images/chat-app.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">ColorChat</h5>
+							<p class="card-text">A chat application that uses web sockets to allow real-time messaging
+								within a dedicated chat room.</p>
+							<div id="tech">
+								<span>HTML5</span> <span>CSS3</span> <span>JavaScript</span><span>Node.js</span>
+								<span>Express.js</span>
+							</div>
+							<div id="project-btn">
+								<a href="https://zac-siegel-chat-app.herokuapp.com/" target="_blank" class="demo-btn"><i
+										class="fas fa-eye"></i> Demo</a>
+								<a href="https://github.com/ZacSiegel/Chat-app" target="_blank" class="src-btn"><i
+										class="fas fa-code"></i> Code</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="card col-md-4" id="card2">
+						<img src="./images/Weather-app.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Weather App</h5>
+							<p class="card-text">A weather app that fetches data using the OpenWeatherMap API to display
+								weather conditions for a given city.</p>
+							<div id="tech">
+								<span>HTML5</span> <span>CSS3</span> <span>JavaScript</span>
+							</div>
+							<div id="project-btn">
+								<a href="https://zacsiegel.github.io/Weather-app/" target="_blank" class="demo-btn"><i
+										class="fas fa-eye"></i> Demo</a>
+								<a href="https://github.com/ZacSiegel/Weather-app" target="_blank" class="src-btn"><i
+										class="fas fa-code"></i> Code</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Project row 2 -->
+				<div class="row justify-content-center">
+
+					<div class="card col-md-4" id="card3">
+						<img src="./images/Responsive-landing.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Songify</h5>
+							<p class="card-text">A responsive landing page for a fictional music streaming service.
+							</p>
+							<div id="tech">
+								<span>HTML5</span> <span>CSS3</span> <span>Bootstrap</span> <span>JavaScript</span>
+							</div>
+							<div id="project-btn">
+								<a href="https://zacsiegel.github.io/Landing-page/" target="_blank" class="demo-btn"><i
+										class="fas fa-eye"></i> Demo</a>
+								<a href="https://github.com/ZacSiegel/Landing-page" target="_blank" class="src-btn"><i
+										class="fas fa-code"></i> Code</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="card col-md-4" id="card4">
+						<img src="./images/workout.jpg" class="card-img-top" alt="...">
+						<div class="card-body">
+							<h5 class="card-title">Workout Tracker</h5>
+							<p class="card-text">A CRUD app that allows the user to add exercises and filter them
+								by days of the week. Uses local storage to save data.</p>
+							<div id="tech">
+								<span>HTML5</span> <span>CSS3</span> <span>Bootstrap</span> <span>JavaScript</span>
+							</div>
+							<div id="project-btn">
+								<a href="https://zacsiegel.github.io/Exercise-tracker-app/" target="_blank"
+									class="demo-btn"><i class="fas fa-eye"></i> Demo</a>
+								<a href="https://github.com/ZacSiegel/Exercise-tracker-app" target="_blank"
+									class="src-btn"><i class="fas fa-code"></i> Code</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Skills Section -->
+
+			<!-- About Me -->
+			<section id="about" class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2 class="about-title">About Me</h2>
+						</header>
+						<p class="about-description">I'm Zac, a front-end web developer with a passion for learning.
+							Whether it's
+							websites, apps, music, or games, I am fascinated with learning how technology impacts all of
+							these. Currently pursuing a B.S. in Information Technology.
+						</p>
+						<a href="Zac-Siegel-resume.pdf" target="_blank"> <button id="download"><i
+									class="far fa-file-alt"></i> Download
+								My Resume </button></a>
+					</div>
+
+					<div class="skills-container">
+						<div class="skills-column">
+							<div class="skills-item-container" id="html">
+								<div class="skills-item">
+									<img src="images/html.png">
+									<div>HTML</div>
+								</div>
+							</div>
+							<div class="skills-item-container" id="css">
+								<div class="skills-item">
+									<img src="images/css.png">
+									<div>CSS</div>
+								</div>
+							</div>
+							<div class="skills-item-container" id="javascript">
+								<div class="skills-item">
+									<img src="images/js.png">
+									<div>JavaScript</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="skills-column">
+							<div class="skills-item-container" id="bootstrap">
+								<div class="skills-item">
+									<img src="images/bootstrap.png">
+									<div>Bootstrap</div>
+								</div>
+							</div>
+							<div class="skills-item-container" id="react">
+								<div class="skills-item">
+									<img src="images/react.png">
+									<div>React</div>
+								</div>
+							</div>
+							<div class="skills-item-container" id="python">
+								<div class="skills-item">
+									<img src="images/python.png">
+									<div>Python</div>
+								</div>
+							</div>
+							<div class="skills-item-container" id="node">
+								<div class="skills-item">
+									<img src="images/node.png">
+									<div>Node</div>
+								</div>
+							</div>
+						</div>
+
+						<div class="skills-column">
+							<div class="skills-item-container" id="express">
+								<div class="skills-item">
+									<img src="images/express.png">
+									<div>Express</div>
+								</div>
+							</div>
+							<div class="skills-item-container" id="git">
+								<div class="skills-item">
+									<img src="images/git.png">
+									<div>Git</div>
+								</div>
+							</div>
+							<div class="skills-item-container" id="bash">
+								<div class="skills-item">
+									<img src="images/bash.png">
+									<div>Bash CLI</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Contact Form -->
+			<section id="cta" class="main special">
+				<header class="major">
+					<h2 class="contact-header">Contact</h2>
+					<div class="contact-container">
+						<p class="contact-info">Have a question, comment, or want to work together? Leave your details
+							and
+							I will get back to you
+							as soon as
+							possible.</p>
+					</div>
+				</header>
+				<section class="contact-form" id="contact">
+					<form action="https://formsubmit.co/zac.siegel89@gmail.com" method="POST">
+						<div class="row justify-content-center">
+
+							<div class="col-10 col-md-6 mb-3">
+								<input type="text" name="name" class="form-control" id="name" placeholder="Name"
+									required>
+							</div>
+						</div>
+
+						<input type="hidden" name="_next" value="https://www.zacsiegel.com/thank_you.html">
+
+						<div class="row justify-content-center">
+							<div class="col-10 col-md-6 mb-3">
+
+								<input type="email" name="email" class="form-control" id="email" placeholder="Email"
+									required>
+							</div>
+						</div>
+
+						<div class="row justify-content-center">
+							<div class="col-10 col-md-6 mb-3">
+
+								<textarea type="text" name="message" class="form-control" id="message" rows="8"
+									placeholder="Enter message here"></textarea>
+							</div>
+						</div>
+						<button type="submit" id="form-btn"><i class="far fa-envelope"></i> Send Message</button>
+					</form>
+				</section>
+				<footer class="major">
+
+				</footer>
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section>
+				<h2>My info</h2>
+				<dl class="alt">
+					<dt>Location</dt>
+					<dd>Bay Area, CA &bull; USA</dd>
+					<dt>Links</dt>
+					<a href="https://github.com/ZacSiegel" class="icon brands fa-github"><svg stroke="currentColor"
+							fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="2.5em" width="2.5em"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M511.6 76.3C264.3 76.2 64 276.4 64 523.5 64 718.9 189.3 885 363.8 946c23.5 5.9 19.9-10.8 19.9-22.2v-77.5c-135.7 15.9-141.2-73.9-150.3-88.9C215 726 171.5 718 184.5 703c30.9-15.9 62.4 4 98.9 57.9 26.4 39.1 77.9 32.5 104 26 5.7-23.5 17.9-44.5 34.7-60.8-140.6-25.2-199.2-111-199.2-213 0-49.5 16.3-95 48.3-131.7-20.4-60.5 1.9-112.3 4.9-120 58.1-5.2 118.5 41.6 123.2 45.3 33-8.9 70.7-13.6 112.9-13.6 42.4 0 80.2 4.9 113.5 13.9 11.3-8.6 67.3-48.8 121.3-43.9 2.9 7.7 24.7 58.3 5.5 118 32.4 36.8 48.9 82.7 48.9 132.3 0 102.2-59 188.1-200 212.9a127.5 127.5 0 0 1 38.1 91v112.5c.8 9 0 17.9 15 17.9 177.1-59.7 304.6-227 304.6-424.1 0-247.2-200.4-447.3-447.5-447.3z">
+							</path>
+						</svg></a>
+					<a href="https://www.linkedin.com/in/zac-siegel-84a213215/" class="icon brands fa-LinkedIn"><svg
+							stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024"
+							height="2.5em" width="2.5em" xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zM349.3 793.7H230.6V411.9h118.7v381.8zm-59.3-434a68.8 68.8 0 1 1 68.8-68.8c-.1 38-30.9 68.8-68.8 68.8zm503.7 434H675.1V608c0-44.3-.8-101.2-61.7-101.2-61.7 0-71.2 48.2-71.2 98v188.9H423.7V411.9h113.8v52.2h1.6c15.8-30 54.5-61.7 112.3-61.7 120.2 0 142.3 79.1 142.3 181.9v209.4z">
+							</path>
+						</svg></a>
+				</dl>
+			</section>
+		</footer>
+
+		<h3 id="copyright">COPYRIGHT © 2021 ZAC SIEGEL</h3>
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/navbar.js"></script>
+	<script src="assets/js/canvas.js"></script>
+	<script src="assets/js/scrollReveal.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+
+</body>
+
+</html>
