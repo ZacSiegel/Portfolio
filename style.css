@@ -701,6 +701,10 @@ header.major h2:after {
 	max-height: 60rem;
 }
 
+.card-img-top {
+	border-radius: 10px;
+}
+
 @media screen and (max-width: 1280px) {
 	.card {
 		min-width: 60%;
@@ -1520,7 +1524,19 @@ b:after {
 	backdrop-filter: blur(10px);
 	background-color: rgba(165, 165, 165, 0.25);
 	/* box-shadow: 5px 5px 30px rgba(0, 0, 0, .25); */
+
 }
+
+		@supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
+			#about,
+				#first,
+				#second,
+				#cta {
+				background-color: rgba(167, 167, 167, 0.25);
+				-webkit-backdrop-filter: blur(2em);
+				backdrop-filter: blur(2em);
+			}
+		}
 
 #cta {
 	border-bottom-left-radius: 20px;

@@ -28,7 +28,8 @@ let slideUp = {
     distance: '60px',
     origin: 'bottom',
     opacity: 0,
-    duration: 1000
+    duration: 1000,
+    mobile: false
 }
 
 let cardSlideLeft = {
@@ -36,7 +37,8 @@ let cardSlideLeft = {
     origin: 'right',
     opacity: 0,
     delay: 500,
-    duration: 1500
+    duration: 1500,
+    mobile: false
 }
 
 let cardSlideRight = {
@@ -44,7 +46,8 @@ let cardSlideRight = {
     origin: 'left',
     opacity: 0,
     delay: 500,
-    duration: 1500
+    duration: 1500,
+    mobile: false
 }
 
 ScrollReveal().reveal('.projects-header', slideUp);
@@ -58,70 +61,80 @@ ScrollReveal().reveal('#card4', cardSlideLeft);
 let html = {
     opacity: 0,
     delay: 250,
-    duration: 750
+    duration: 750,
+    mobile: false
 }
 
 let css = {
 
     opacity: 0,
     delay: 600,
-    duration: 750
+    duration: 750,
+    mobile: false
 }
 
 let javascript = {
 
     opacity: 0,
     delay: 1600,
-    duration: 750
+    duration: 750,
+    mobile: false
 }
 
 let bootstrap = {
 
     opacity: 0,
     delay: 1500,
-    duration: 750
+    duration: 750,
+    mobile: false
 }
 
 let react = {
 
     opacity: 0,
     delay: 800,
-    duration: 750
+    duration: 750,
+    mobile: false
 }
 
 let python = {
 
     opacity: 0,
     delay: 1800,
-    duration: 750
+    duration: 750,
+    mobile: false
 }
 
 let node = {
 
     opacity: 0,
     delay: 750,
-    duration: 750
+    duration: 750,
+    mobile: false
 }
 
 let express = {
 
     opacity: 0,
     delay: 1000,
-    duration: 750
+    duration: 750,
+    mobile: false
 }
 
 let git = {
 
     opacity: 0,
     delay: 1250,
-    duration: 750
+    duration: 750,
+    mobile: false
 }
 
 let bash = {
 
     opacity: 0,
     delay: 400,
-    duration: 750
+    duration: 750,
+    mobile: false
 }
 
 
@@ -143,14 +156,11 @@ let aboutSlide = {
     origin: 'left',
     opacity: 0,
     delay: 500,
-    duration: 1500
+    duration: 1500,
+    mobile: false
 }
 ScrollReveal().reveal('.content', aboutSlide);
 
 // Contact animations
 ScrollReveal().reveal('.contact-header', slideRight);
 ScrollReveal().reveal('.contact-info', slideLeft);
-
-let nameField = {
-
-}
