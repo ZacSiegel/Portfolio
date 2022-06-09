@@ -691,7 +691,7 @@ header.major h2:after {
 	justify-content: center;
 	margin: 3rem 3rem;
 	padding: 1rem;
-	background-color: rgba(222, 222, 222, 0.2);
+	background-color: rgba(114, 114, 114, 0.2);
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	border-right: 1px solid rgba(255, 255, 255, 0.2);
 	border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -748,7 +748,7 @@ p.card-text {
 #tech-2>span {
 	border: 2px solid #47acff;
 	padding: 2px 8px;
-	border-radius: 5px;
+	border-radius: 7px;
 	margin: 0.5rem 0.5rem;
 	font-size: 1rem;
 	color: white;
@@ -756,6 +756,7 @@ p.card-text {
 	position: relative;
 	display: inline;
 }
+
 
 #project-btn {
 	margin: 1rem auto;
@@ -777,6 +778,12 @@ p.card-text {
 	#project-btn>a {
 		margin: 0.5rem 0.25rem;
 	}
+		#tech>span,
+		#tech-2>span {
+		
+			margin: 0.25rem 0.25rem;
+			font-size: 0.8rem;
+		}
 
 }
 
@@ -1471,7 +1478,7 @@ b:after {
 
 	#main>.main {
 		padding: 3em 2em 1em 2em;
-		border-radius: 20px;
+		/* border-radius: 20px; */
 	}
 
 	#main>.main>.image.main:first-child {
@@ -1709,7 +1716,7 @@ a>#download button {
 	border-bottom-left-radius: 20px;
 	border-bottom-right-radius: 20px;
 	text-decoration: none !important;
-	background: none !important;
+	background: none;
 	z-index: 10;
 }
 
@@ -1799,7 +1806,7 @@ ul li a:hover {
 	padding: 0 !important;
 	text-decoration: none !important;
 	backdrop-filter: blur(40px);
-	background: rgb(255, 255, 255) !important;
+	background: rgba(44, 44, 44, 0.9) !important;
 }
 
 .sticky ul {
