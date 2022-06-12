@@ -9,3 +9,7 @@ Background animation done with CSS and vanilla JS.
 Updated on 05/13/22 with animation effects and re-designing the about section
 
 Updated on 05/26/22 for cross-browser compatibility issues
+
+Updated on 06/08/22 to restyle navbar
+
+Updated on 06/12/22 to refactor css with scss
