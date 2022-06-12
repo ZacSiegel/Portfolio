@@ -66,10 +66,7 @@ q {
 		content: none;
 	} */
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
+
 
 body {
 	-webkit-text-size-adjust: none;
@@ -266,47 +263,6 @@ h6 {
 
 }
 
-sub {
-	font-size: 0.8em;
-	position: relative;
-	top: 0.5em;
-}
-
-sup {
-	font-size: 0.8em;
-	position: relative;
-	top: -0.5em;
-}
-
-blockquote {
-	border-left: solid 4px;
-	font-style: italic;
-	margin: 0 0 2em 0;
-	padding: 0.5em 0 0.5em 2em;
-}
-
-code {
-	border-radius: 8px;
-	border: solid 1px;
-	font-family: "Courier New", monospace;
-	font-size: 0.9em;
-	margin: 0 0.25em;
-	padding: 0.25em 0.65em;
-}
-
-pre {
-	-webkit-overflow-scrolling: touch;
-	font-family: "Courier New", monospace;
-	font-size: 0.9em;
-	margin: 0 0 2em 0;
-}
-
-pre code {
-	display: block;
-	line-height: 1.75;
-	padding: 1em 1.5em;
-	overflow-x: auto;
-}
 
 hr {
 	border: 0;
@@ -1045,10 +1001,6 @@ p.card-text {
 }
 
 
-/* body.is-preload #header.alt>* {
-	opacity: 0;
-} */
-
 body.is-preload #header.alt .logo {
 	-moz-transform: scale(0.8) rotate(-30deg);
 	-webkit-transform: scale(0.8) rotate(-30deg);
@@ -1406,29 +1358,6 @@ b:after {
 	font-size: 3rem;
 }
 
-#main table tbody tr {
-	border-color: #dddddd;
-}
-
-#main table tbody tr:nth-child(2n + 1) {
-	background-color: rgba(222, 222, 222, 0.25);
-}
-
-#main table th {
-	color: #636363;
-}
-
-#main table thead {
-	border-bottom-color: #dddddd;
-}
-
-#main table tfoot {
-	border-top-color: #dddddd;
-}
-
-#main table.alt tbody tr td {
-	border-color: #dddddd;
-}
 
 #main .spotlight .image {
 	border-color: #dddddd;
@@ -1444,8 +1373,6 @@ b:after {
 	border-top-left-radius: 20px;
 	border-top-right-radius: 20px;
 }
-
-
 
 
 @media screen and (max-width: 1280px) {
