@@ -852,7 +852,9 @@ body.is-preload {
     /* box-shadow: 5px 5px 30px rgba(0, 0, 0, .25); */
 
 }
-
+////////////////////////////////////////////////// //////
+// Workaround for backdrop filter issues on Safari /////
+///////////////////////////////////////////////////////
 @supports ((-webkit-backdrop-filter: none) or (backdrop-filter: none)) {
 
     #about,
@@ -861,7 +863,7 @@ body.is-preload {
     #cta {
         background-color: rgba(167, 167, 167, 0.25);
         -webkit-backdrop-filter: blur(2em);
-        backdrop-filter: blur(2em);
+        backdrop-filter: blur(1.25em);
     }
 }
 
