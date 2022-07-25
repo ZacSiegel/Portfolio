@@ -346,7 +346,7 @@ h6 {
 
     &:hover {
         border: 1px solid $blue_theme;
-        color: $black !important;
+        color: $black  !important;
         background: $blue_theme;
     }
 }
@@ -366,7 +366,7 @@ h6 {
 
     &:hover {
         border: 1px solid $blue_theme;
-        color: $black !important;
+        color: $black  !important;
         background: $blue_theme;
     }
 }
@@ -615,9 +615,9 @@ p.card-text {
         flex: 1;
         margin-right: 2rem;
 
-            &:last-child {
-                margin-bottom: 0;
-            }
+        &:last-child {
+            margin-bottom: 0;
+        }
 
         header.major {
             margin: 0 0 2em 0;
@@ -758,13 +758,17 @@ body.is-preload {
     }
 
 
-    h1, h2, h3, h4 {
+    h1,
+    h2,
+    h3,
+    h4 {
         color: $white;
         letter-spacing: 0.5rem;
         text-transform: uppercase;
     }
 
-    h5, h6 {
+    h5,
+    h6 {
         letter-spacing: 0.2rem;
         font-size: 1.8rem;
         font-weight: 600;
@@ -852,6 +856,7 @@ body.is-preload {
     /* box-shadow: 5px 5px 30px rgba(0, 0, 0, .25); */
 
 }
+
 ////////////////////////////////////////////////// //////
 // Workaround for backdrop filter issues on Safari /////
 ///////////////////////////////////////////////////////
@@ -1457,4 +1462,35 @@ dl.alt {
         display: block;
         clear: both;
     }
+}
+
+@media screen and (max-width: 768px) {
+    #first {
+
+        #card1,
+        #card2,
+        #card3,
+        #card4 {
+            display: flex !important;
+            min-width: 105%;
+            border: none;
+            background: none;
+            box-shadow: none;
+        }
+
+
+    }
+
+    #main {
+        #cta {
+            padding: 0;
+            padding-top: 2rem
+        }
+
+    }
+
+    #contact {
+        min-width: 100%;
+    }
+
 }

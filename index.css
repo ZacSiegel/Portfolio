@@ -766,13 +766,17 @@ body.is-preload #header.alt .logo {
           box-shadow: 0 0 0 1px #47acff;
 }
 
-#main h1, #main h2, #main h3, #main h4 {
+#main h1,
+#main h2,
+#main h3,
+#main h4 {
   color: #ffffff;
   letter-spacing: 0.5rem;
   text-transform: uppercase;
 }
 
-#main h5, #main h6 {
+#main h5,
+#main h6 {
   letter-spacing: 0.2rem;
   font-size: 1.8rem;
   font-weight: 600;
@@ -863,7 +867,7 @@ body.is-preload #header.alt .logo {
   #cta {
     background-color: rgba(167, 167, 167, 0.25);
     -webkit-backdrop-filter: blur(2em);
-    backdrop-filter: blur(2em);
+    backdrop-filter: blur(1.25em);
   }
 }
 
@@ -1359,5 +1363,28 @@ dl.alt:after {
   content: '';
   display: block;
   clear: both;
+}
+
+@media screen and (max-width: 768px) {
+  #first #card1,
+  #first #card2,
+  #first #card3,
+  #first #card4 {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    min-width: 105%;
+    border: none;
+    background: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  #main #cta {
+    padding: 0;
+    padding-top: 2rem;
+  }
+  #contact {
+    min-width: 100%;
+  }
 }
 /*# sourceMappingURL=index.css.map */
