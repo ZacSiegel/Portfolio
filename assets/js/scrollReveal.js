@@ -151,5 +151,5 @@ let aboutSlide = {
 ScrollReveal().reveal(".content", aboutSlide);
 
 // Contact animations
-ScrollReveal().reveal(".contact-header", slideRight);
-ScrollReveal().reveal(".contact-info", slideLeft);
+ScrollReveal().reveal(".contact-header", slideUp);
+ScrollReveal().reveal(".contact-info", slideUp);

@@ -80,45 +80,63 @@
 				<header class="major">
 					<h2 class="projects-header">Projects</h2>
 				</header>
-				
+
 
 				<!-- Project Row 1 -->
 				<div class="row justify-content-center">
 
-					<div class="card col-md-4" id="card1">
-
-						<img src="./images/sight-share.png" class="card-img-top" alt="...">
+					<div class="project-row card col-md-4" id="card1">
 						<div class="card-body">
-							<h5 class="card-title">SightShare</h5>
-							<p class="card-text">A fullstack social media app that uses the MERN stack. Users can upload pictures with their posts along with hashtags.
-							Users can also edit, like or delete posts.</p>
-							<div id="tech">
-								<span>React</span> <span>Redux</span> <span>Node.js</span><span>Express.js</span> <span>MongoDB</span>
+							<h5 class="card-title">DiamondLife site</h5>
+							<p class="card-text">Worked as a web developer intern to re-design/develop the diamondLife
+								e-commerce site. The main goal was to improve and modernize the UI/UX for mobile users,
+								and reorganize the codebase. There
+								were extensive re-designs done for numerous pages. Some of the pages I worked on include
+								the cart, shipping options and checkout pages. Product
+								pages I worked on included numerous SlatWall&#8482; and PegBoard&#8482; pages. </p>
+							<div class="tech-and-button-wrapper">
+								<div id="tech">
+									<span>HTML</span> <span>SCSS</span> <span>TypeScript</span><span>JavaScript</span>
+									<span>PHP</span><span>Figma</span>
+								</div>
+								<div id="project-btn">
+									<a href="https://diamondlifegear.com/" target="_blank" class="demo-btn"><i
+											class="fas fa-eye"></i> Live Site</a>
+
+								</div>
 							</div>
-							<div id="project-btn">
-								<a href="https://sightshare.netlify.app/" target="_blank" class="demo-btn"><i
-										class="fas fa-eye"></i> Demo</a>
-								<a href="https://github.com/ZacSiegel/Sight-Share" target="_blank" class="src-btn"><i
-										class="fas fa-code"></i> Code</a>
-							</div>
+						</div>
+						<div class="image-wrapper">
+							<img src="./images/diamondLifeCart.png" class="card-img-top" alt="...">
 						</div>
 					</div>
 
-					<div class="card col-md-4" id="card2">
-						<img src="./images/chat-app.jpg" class="card-img-top" alt="...">
+					<div class="project-row card col-md-4" id="card2">
+						<div class="image-wrapper">
+							<img src="./images/sight-share.png" class="card-img-top" alt="...">
+						</div>
 						<div class="card-body">
-							<h5 class="card-title">ColorChat</h5>
-							<p class="card-text">A chat application that uses web sockets to allow real-time messaging
-								within a dedicated chat room.</p>
-							<div id="tech">
-								<span>HTML5</span> <span>CSS3</span> <span>JavaScript</span><span>Node.js</span>
-								<span>Express.js</span>
-							</div>
-							<div id="project-btn">
-								<a href="https://zac-siegel-chat-app.herokuapp.com/" target="_blank" class="demo-btn"><i
-										class="fas fa-eye"></i> Demo</a>
-								<a href="https://github.com/ZacSiegel/Chat-app" target="_blank" class="src-btn"><i class="fas fa-code"></i>
-									Code</a>
+							<h5 class="card-title">SightShare</h5>
+							<p class="card-text">A fullstack social media app that uses the MERN stack. Users can upload
+								pictures with their
+								posts along with hashtags.
+								Users can also edit, like or delete posts. Learned how to use redux with react for state
+								management. Learned how to use actions, reducers and API calls (through axios) on the
+								front-end together with controllers and
+								routes on the backend to correctly communicate data and update the database.
+							</p>
+							<div class="tech-and-button-wrapper">
+								<div id="tech">
+									<span>React</span> <span>Redux</span> <span>Node.js</span><span>Express.js</span>
+									<span>MongoDB</span>
+								</div>
+								<div id="project-btn">
+									<a href="https://sightshare.netlify.app/" target="_blank" class="demo-btn"><i
+											class="fas fa-eye"></i>
+										Demo</a>
+									<a href="https://github.com/ZacSiegel/Sight-Share" target="_blank"
+										class="src-btn"><i class="fas fa-code"></i> Code</a>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -127,7 +145,34 @@
 				<!-- Project row 2 -->
 				<div class="row justify-content-center">
 
-					<div class="card col-md-4" id="card3">
+					<div class="project-row card col-md-4" id="card1">
+
+						<div class="card-body">
+							<h5 class="card-title">ColorChat</h5>
+							<p class="card-text">A chat application that uses web sockets to allow real-time messaging
+								within a dedicated chat room. Learned how to use web sockets with socket.io and how to
+								use Node and Express for server communication.</p>
+							<div class="tech-and-button-wrapper">
+
+								<div id="tech">
+									<span>HTML</span> <span>CSS</span> <span>JavaScript</span><span>Node.js</span>
+									<span>Express.js</span>
+								</div>
+								<div id="project-btn">
+									<a href="https://zac-siegel-chat-app.herokuapp.com/" target="_blank"
+										class="demo-btn"><i class="fas fa-eye"></i> Demo</a>
+									<a href="https://github.com/ZacSiegel/Chat-app" target="_blank" class="src-btn"><i
+											class="fas fa-code"></i>
+										Code</a>
+								</div>
+							</div>
+						</div>
+						<div class="image-wrapper">
+							<img src="./images/chat-app.jpg" class="card-img-top" alt="...">
+						</div>
+					</div>
+
+					<!-- <div class="project-row card col-md-4" id="card3">
 						<img src="./images/portfolio.png" class="card-img-top" alt="...">
 						<div class="card-body">
 							<h5 class="card-title">Portfolio Site</h5>
@@ -141,28 +186,11 @@
 								<a href="https://www.zacsiegel.com/" target="_blank" class="demo-btn"><i
 										class="fas fa-eye"></i> Demo</a>
 								<a href="https://github.com/ZacSiegel/portfolio" target="_blank" class="src-btn"><i
-										class="fas fa-code"></i> Code</a>
+										class="fas fa-code"></i>
+									Code</a>
 							</div>
 						</div>
-					</div>
-
-					<div class="card col-md-4" id="card4">
-						<img src="./images/Weather-app.jpg" class="card-img-top" alt="...">
-						<div class="card-body">
-							<h5 class="card-title">Weather App</h5>
-							<p class="card-text">A weather app that fetches data using the OpenWeatherMap API to display
-								weather conditions for a given city.</p>
-							<div id="tech">
-								<span>HTML5</span> <span>CSS3</span> <span>JavaScript</span>
-							</div>
-							<div id="project-btn">
-								<a href="https://zacsiegel.github.io/Weather-app/" target="_blank" class="demo-btn"><i
-										class="fas fa-eye"></i> Demo</a>
-								<a href="https://github.com/ZacSiegel/Weather-app" target="_blank" class="src-btn"><i
-										class="fas fa-code"></i> Code</a>
-							</div>
-						</div>
-					</div>
+					</div> -->
 				</div>
 			</section>
 
@@ -211,8 +239,8 @@
 						<div class="skills-column">
 							<div class="skills-item-container" id="bootstrap">
 								<div class="skills-item">
-									<img src="images/bootstrap.png">
-									<div>Bootstrap</div>
+									<img src="images/sql.png">
+									<div>SQL</div>
 								</div>
 							</div>
 							<div class="skills-item-container" id="react">
@@ -223,8 +251,8 @@
 							</div>
 							<div class="skills-item-container" id="mongodb">
 								<div class="skills-item">
-									<img src="images/mongodb.png">
-									<div>MongoDB</div>
+									<img src="images/figma.png">
+									<div>Figma</div>
 								</div>
 							</div>
 							<div class="skills-item-container" id="node">
@@ -334,7 +362,7 @@
 			</section>
 		</footer>
 
-		<h3 id="copyright">COPYRIGHT © 2021 ZAC SIEGEL</h3>
+		<h3 id="copyright">COPYRIGHT © 2022 ZAC SIEGEL</h3>
 	</div>
 
 	<!-- Scripts -->
