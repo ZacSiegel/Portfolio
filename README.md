@@ -13,3 +13,5 @@ Updated on 05/26/22 for cross-browser compatibility issues
 Updated on 06/08/22 to restyle navbar
 
 Updated on 06/12/22 to refactor css with scss
+
+Updated on 09/01/22 to revamp project sectiona and add new experience.

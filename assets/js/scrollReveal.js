@@ -52,8 +52,8 @@ let cardSlideRight = {
 ScrollReveal().reveal(".projects-header", slideUp);
 ScrollReveal().reveal("#card1", cardSlideRight);
 ScrollReveal().reveal("#card2", cardSlideLeft);
-ScrollReveal().reveal("#card3", cardSlideRight);
-ScrollReveal().reveal("#card4", cardSlideLeft);
+// ScrollReveal().reveal("#card3", cardSlideRight);
+// ScrollReveal().reveal("#card4", cardSlideLeft);
 
 // Skills animations
 
