@@ -6,12 +6,20 @@ Live site: https://www.zacsiegel.com/
 
 Background animation done with CSS and vanilla JS.
 
-Updated on 05/13/22 with animation effects and re-designing the about section
+05/13/22 
+- Updated with animation effects and re-designing the about section
 
-Updated on 05/26/22 for cross-browser compatibility issues
+05/26/22
+- Updated for cross-browser compatibility issues
 
-Updated on 06/08/22 to restyle navbar
+06/08/22
+- Updated to restyle navbar
 
-Updated on 06/12/22 to refactor css with scss
+06/12/22 
+- Refactor css with scss
 
-Updated on 09/01/22 to revamp project sectiona and add new experience.
+09/01/22
+- revamp project sections and add new experience.
+
+12/08/22
+- Updated scroll animations and project section.

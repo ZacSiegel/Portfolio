@@ -7,6 +7,8 @@ let slideRight = {
   origin: "left",
   opacity: 0,
   duration: 1200,
+  reset: true
+
 };
 
 let slideLeft = {
@@ -14,6 +16,8 @@ let slideLeft = {
   origin: "right",
   opacity: 0,
   duration: 1200,
+  reset: true
+
 };
 
 ScrollReveal().reveal("#name-title", slideRight);
@@ -29,24 +33,30 @@ let slideUp = {
   opacity: 0,
   duration: 1000,
   mobile: false,
+  reset: true
+
 };
 
 let cardSlideLeft = {
   distance: "80px",
-  origin: "right",
+  origin: "top",
   opacity: 0,
   delay: 500,
   duration: 1500,
   mobile: false,
+  reset: true
+
 };
 
 let cardSlideRight = {
   distance: "80px",
-  origin: "left",
+  origin: "bottom",
   opacity: 0,
   delay: 500,
   duration: 1500,
   mobile: false,
+  reset: true
+
 };
 
 ScrollReveal().reveal(".projects-header", slideUp);
@@ -62,6 +72,8 @@ let html = {
   delay: 250,
   duration: 750,
   mobile: false,
+  reset: true
+
 };
 
 let css = {
@@ -69,6 +81,8 @@ let css = {
   delay: 600,
   duration: 750,
   mobile: false,
+  reset: true
+
 };
 
 let javascript = {
@@ -76,6 +90,8 @@ let javascript = {
   delay: 1600,
   duration: 750,
   mobile: false,
+  reset: true
+
 };
 
 let bootstrap = {
@@ -83,6 +99,8 @@ let bootstrap = {
   delay: 1500,
   duration: 750,
   mobile: false,
+  reset: true
+
 };
 
 let react = {
@@ -90,6 +108,8 @@ let react = {
   delay: 800,
   duration: 750,
   mobile: false,
+  reset: true
+
 };
 
 let mongodb = {
@@ -97,6 +117,8 @@ let mongodb = {
   delay: 1800,
   duration: 750,
   mobile: false,
+  reset: true
+
 };
 
 let node = {
@@ -104,6 +126,8 @@ let node = {
   delay: 750,
   duration: 750,
   mobile: false,
+  reset: true
+
 };
 
 let express = {
@@ -111,6 +135,8 @@ let express = {
   delay: 1000,
   duration: 750,
   mobile: false,
+  reset: true
+
 };
 
 let git = {
@@ -118,6 +144,7 @@ let git = {
   delay: 1250,
   duration: 750,
   mobile: false,
+  reset: true
 };
 
 let bash = {
@@ -125,6 +152,8 @@ let bash = {
   delay: 400,
   duration: 750,
   mobile: false,
+  reset: true
+
 };
 
 // Skills animations
@@ -147,6 +176,7 @@ let aboutSlide = {
   delay: 500,
   duration: 1500,
   mobile: false,
+  reset: true
 };
 ScrollReveal().reveal(".content", aboutSlide);
 
